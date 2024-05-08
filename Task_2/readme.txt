@@ -1,7 +1,7 @@
 
 **Generate a Course at Random First**
    This step involves generating a course randomly. Without more context, it's unclear what kind of course you're referring to. However, you would need to generate some data representing a course, which could include fields like course name, course code, instructor, etc.
-
+ **Installation and Running**:
 ##Generate faker, merge faker and course, and split to three output
    This step involves using Faker library to generate fake data, merging it with the course data generated in the first step, and then splitting the merged data into three output files. The specifics of how to merge and split the data depend on the structure of your data and your requirements.
 

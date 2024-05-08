@@ -1,0 +1,22 @@
+Currency_Code,Currency,Units,Buy,Sell
+INR,Indian Rupee,100,160.00,160.00
+USD,U.S. Dollar,1,133.32,133.32
+EUR,European Euro,1,143.56,143.56
+GBP,UK Pound Sterling,1,167.27,167.27
+CHF,Swiss Franc,1,147.00,147.00
+AUD,Australian Dollar,1,88.11,88.11
+CAD,Canadian Dollar,1,97.47,97.47
+SGD,Singapore Dollar,1,98.53,98.53
+JPY,Japanese Yen,10,8.63,8.63
+CNY,Chinese Yuan,1,18.47,18.47
+SAR,Saudi Arabian Riyal,1,35.55,35.55
+QAR,Qatari Riyal,1,36.57,36.57
+THB,Thai Baht,1,3.62,3.62
+AED,UAE Dirham,1,36.30,36.30
+MYR,Malaysian Ringgit,1,28.14,28.14
+KRW,South Korean Won,100,9.82,9.82
+SEK,Swedish Kroner,1,12.29,12.29
+DKK,Danish Kroner,1,19.25,19.25
+HKD,Hong Kong Dollar,1,17.05,17.05
+KWD,Kuwaity Dinar,1,433.70,433.70
+BHD,Bahrain Dinar,1,353.60,353.60

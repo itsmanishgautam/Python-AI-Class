@@ -1,22 +1,22 @@
 Currency_Code,Currency,Units,Buy,Sell
 INR,Indian Rupee,100,160.00,160.15
-USD,U.S. Dollar,1,133.32,133.92
-EUR,European Euro,1,143.56,144.21
-GBP,UK Pound Sterling,1,167.27,168.02
-CHF,Swiss Franc,1,147.00,147.66
-AUD,Australian Dollar,1,88.11,88.51
-CAD,Canadian Dollar,1,97.47,97.91
-SGD,Singapore Dollar,1,98.53,98.98
-JPY,Japanese Yen,10,8.63,8.67
-CNY,Chinese Yuan,1,18.47,18.55
+USD,U.S. Dollar,1,133.34,133.94
+EUR,European Euro,1,143.30,143.95
+GBP,UK Pound Sterling,1,166.56,167.31
+CHF,Swiss Franc,1,146.70,147.36
+AUD,Australian Dollar,1,87.55,87.95
+CAD,Canadian Dollar,1,96.93,97.37
+SGD,Singapore Dollar,1,98.33,98.77
+JPY,Japanese Yen,10,8.58,8.61
+CNY,Chinese Yuan,1,18.45,18.53
 SAR,Saudi Arabian Riyal,1,35.55,35.71
 QAR,Qatari Riyal,1,36.57,36.73
-THB,Thai Baht,1,3.62,3.63
-AED,UAE Dirham,1,36.30,36.46
-MYR,Malaysian Ringgit,1,28.14,28.27
-KRW,South Korean Won,100,9.82,9.86
-SEK,Swedish Kroner,1,12.29,12.34
-DKK,Danish Kroner,1,19.25,19.33
-HKD,Hong Kong Dollar,1,17.05,17.12
-KWD,Kuwaity Dinar,1,433.70,435.65
-BHD,Bahrain Dinar,1,353.60,355.19
+THB,Thai Baht,1,3.61,3.62
+AED,UAE Dirham,1,36.30,36.47
+MYR,Malaysian Ringgit,1,28.12,28.24
+KRW,South Korean Won,100,9.78,9.82
+SEK,Swedish Kroner,1,12.22,12.27
+DKK,Danish Kroner,1,19.21,19.30
+HKD,Hong Kong Dollar,1,17.06,17.13
+KWD,Kuwaity Dinar,1,433.44,435.39
+BHD,Bahrain Dinar,1,353.66,355.25

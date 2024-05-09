@@ -65,34 +65,34 @@ if __name__ == "__main__":
 
 
 
-import pandas as pd
+# import pandas as pd
 
-def merge_csv_complex(out1, out2, out3, mergedcsv1, output_file1, output_file2, output_file3):
+# def merge_csv_complex(out1, out2, out3, mergedcsv1, output_file1, output_file2, output_file3):
 
-    # Convert "Country" column to lowercase for case-insensitive matching
-    out2['Country'] = out2['Country'].str.lower()
-    mergedcsv1['Country'] = mergedcsv1['Country'].str.lower()
+#     # Convert "Country" column to lowercase for case-insensitive matching
+#     out2['Country'] = out2['Country'].str.lower()
+#     mergedcsv1['Country'] = mergedcsv1['Country'].str.lower()
 
-    # Perform the merge
-    merged_df2 = pd.merge(out2, mergedcsv1, on=['Country'])
+#     # Perform the merge
+#     merged_df2 = pd.merge(out2, mergedcsv1, on=['Country'])
     
-    # Write the merged DataFrame to a CSV file
-    merged_df2.to_csv(output_file2, index=False)
+#     # Write the merged DataFrame to a CSV file
+#     merged_df2.to_csv(output_file2, index=False)
 
-if __name__ == "__main__":
-    mergedcsv = pd.read_csv("Task_2/csv/CountryAdd_onCurrency_output.csv")
-    # Reorder columns
-    df = mergedcsv[['Country', 'Currency_Code', 'Currency_x', 'Currency_y', 'Units', 'Buy', 'Sell']]
-    # Write back to CSV
-    df.to_csv('Task_2/csv/CountryRearrange.csv', index=False)
+# if __name__ == "__main__":
+#     mergedcsv = pd.read_csv("Task_2/csv/CountryAdd_onCurrency_output.csv")
+#     # Reorder columns
+#     df = mergedcsv[['Country', 'Currency_Code', 'Currency_x', 'Currency_y', 'Units', 'Buy', 'Sell']]
+#     # Write back to CSV
+#     df.to_csv('Task_2/csv/CountryRearrange.csv', index=False)
 
-    mergedcsv1 = pd.read_csv('Task_2/csv/CountryRearrange.csv')
-    out1 = pd.read_csv("Task_2/csv/splitoutput1.csv")
-    out2 = pd.read_csv("Task_2/csv/splitoutput2.csv")
-    out3 = pd.read_csv("Task_2/csv/splitoutput3.csv")
+#     mergedcsv1 = pd.read_csv('Task_2/csv/CountryRearrange.csv')
+#     out1 = pd.read_csv("Task_2/csv/splitoutput1.csv")
+#     out2 = pd.read_csv("Task_2/csv/splitoutput2.csv")
+#     out3 = pd.read_csv("Task_2/csv/splitoutput3.csv")
 
-    output_file1 = 'Task_2/csv/finaldata1.csv'
-    output_file2 = 'Task_2/csv/finaldata2.csv'
-    output_file3 = 'Task_2/csv/finaldata3.csv'
+#     output_file1 = 'Task_2/csv/finaldata1.csv'
+#     output_file2 = 'Task_2/csv/finaldata2.csv'
+#     output_file3 = 'Task_2/csv/finaldata3.csv'
 
-    merge_csv_complex(out1, out2, out3, mergedcsv1, output_file1, output_file2, output_file3)
+#     merge_csv_complex(out1, out2, out3, mergedcsv1, output_file1, output_file2, output_file3)

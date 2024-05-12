@@ -21,6 +21,17 @@
    ],
    "context_set": ""
 },
+{
+   "tag": "irritated_responses",
+   "patterns": [],
+   "responses": [
+      "I've already answered that.",
+      "You already asked me that.",
+      "Please, Don't make me repeat.",
+      "I'm starting to get annoyed by your repeated questions."
+   ],
+   "context_set": ""
+},
  {
    "tag": "goodbye",
    "patterns": [

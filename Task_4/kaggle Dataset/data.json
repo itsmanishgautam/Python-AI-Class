@@ -7,6 +7,7 @@
       "How are you?",
       "Is anyone there?",
       "Hello",
+      "hello",
       "Good day",
       "What's up",
       "how are ya",
@@ -25,10 +26,16 @@
    "tag": "irritated_responses",
    "patterns": [],
    "responses": [
-      "I've already answered that.",
-      "You already asked me that.",
-      "Please, Don't make me repeat.",
-      "I'm starting to get annoyed by your repeated questions."
+      "As I recall, I've already addressed that.",
+      "That topic has been covered previously.",
+      "I believe we've discussed that already.",
+      "I've already provided an answer to that question.",
+      "Your question seems familiar; I may have answered it before.",
+      "It appears you've asked this question before.",
+      "I remember discussing this topic recently.",
+      "I believe we've touched upon this subject.",
+      "That question seems to ring a bell; I might have already responded.",
+      "I think we've already gone over this."
    ],
    "context_set": ""
 },

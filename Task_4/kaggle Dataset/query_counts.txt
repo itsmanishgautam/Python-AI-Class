@@ -1,1 +1,0 @@
-{'hi': 2, 'hello': 1, 'wassup': 1, 'okaay': 5, 'okay': 4, '"what is the name of your developers",': 1, 'who created you': 2, 'who created you?': 1, 'hmm': 1}

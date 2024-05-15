@@ -1,25 +1,25 @@
 Relation,Category,Age
-great-niece,junior,15
+greatniece,junior,15
 godson,junior,15
 goddaughter,junior,16
 stepson,junior,16
 daughter,junior,16
-great-grandson,junior,16
+greatgrandson,junior,16
 adopted children,junior,17
 stepdaughter,junior,17
-great-nephew,junior,17
+greatnephew,junior,17
 cousin,junior,17
 granddaughter,junior,17
 ward,junior,18
-half-brother,junior,18
+brother,junior,18
 third cousin,junior,18
-great-granddaughter,junior,18
+greatgranddaughter,junior,18
 nephew,junior,18
 sister,junior,18
 grandson,junior,18
 mentee,junior,19
 foster children,junior,19
-half-sister,junior,19
+sister,junior,19
 fifth cousin,junior,19
 second cousin,junior,19
 niece,junior,19
@@ -31,21 +31,21 @@ wife,senior,33
 grandfather,senior,35
 husband,senior,36
 mother,senior,38
+kaka,senior,40
 sponsor,senior,40
 grandmother,senior,40
 father,senior,42
 foster parents,senior,45
 uncle,senior,45
 aunt,senior,48
-phupu,senior,50
 adoptive parents,senior,50
 stepmother,senior,50
 legal guardian,senior,55
 stepfather,senior,55
 godfather,senior,58
 mentor,senior,60
-great-aunt,senior,60
+greataunt,senior,60
 godmother,senior,62
-great-uncle,senior,65
-great-grandmother,senior,75
-great-grandfather,senior,80
+greatuncle,senior,65
+greatgrandmother,senior,75
+greatgrandfather,senior,80

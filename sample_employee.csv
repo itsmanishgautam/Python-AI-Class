@@ -1,5 +1,0 @@
-first_name,last_name,skills,availability,preferred_work_hours,preferred_days
-Alice,Johnson,"[Python,Java,SQL,Machine Learning,User Experience]","10:00 - 18:00","09:00 - 17:00","['Tuesday', 'Thursday']"
-John,Doe,"['Python', 'Java', 'SQL']","09:00 - 17:00","09:00 - 17:00","['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']"
-Jane,Smith,"['HTML', 'CSS', 'JavaScript']","08:00 - 16:00","08:00 - 16:00","['Monday', 'Wednesday', 'Friday']"
-Alice,Johnson,"['Networking', 'Security', 'Cisco']","10:00 - 18:00","09:00 - 17:00","['Tuesday', 'Thursday']"

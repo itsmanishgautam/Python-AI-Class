@@ -1,0 +1,12 @@
+Here is a detailed table listing the rates for various JCB equipment based on the provided data:
+
+### JCB Equipment Rates
+
+| S.N. | Equipment Name                                                          | Capacity/Specification | Hourly Rate (Rs.) | Shift Rate (Rs.) |
+|------|------------------------------------------------|------------------------|-------------------|------------------|
+| 52   | Excavator Track (JCB - 820 Super; JCB - 820)                            | 111 to 150 HP          | 1800              | 12600            |
+| 53   | Excavator Track (JCB, JS 140)                                           | 14 Ton                 | 1340              | 9380             |
+| 55   | Hydraulic Excavator (Tracked, JCB JS 140 (HM 1180 Breaker))             | 14 Ton                 | 1340              | 9380             |
+| 56   | Hydraulic Excavator with Breaker (Tracked, JCB JS 140 (HM 1180 Breaker)) | 14 Ton                | 1600              | 11200            |
+
+These rates cover both the standard excavator models and those equipped with hydraulic breakers. The JCB equipment listed ranges from standard excavators to those with additional breaking capabilities, catering to various construction and excavation needs.

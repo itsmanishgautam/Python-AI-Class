@@ -1,0 +1,168 @@
+Product Name,Cost,Category,Color,Container
+cheese popcorn,200.0,junk food,yellow,plastic
+Tomato Small(Local),35.0,vegetable,red,plastic
+Tomato Small(Tunnel),50.0,vegetable,red,plastic
+Tomato Small(Indian),29.0,vegetable,red,plastic
+Tomato Small(Terai),45.0,vegetable,red,plastic
+Potato Red,55.0,vegetable,red,plastic
+Potato Red(Indian),47.0,vegetable,red,plastic
+Potato Red(Mude),50.0,vegetable,red,plastic
+Potato White,46.5,vegetable,white,plastic
+Onion Dry(Indian),80.6,vegetable,brown,plastic
+Carrot(Local),55.0,vegetable,orange,plastic
+Cabbage(Local),40.0,vegetable,green,plastic
+Cauliflower Local,45.0,vegetable,white,plastic
+Cauliflower Local(Jyapu),65.0,vegetable,white,plastic
+Radish White(Hybrid),28.75,vegetable,white,plastic
+Brinjal Long,35.0,vegetable,purple,plastic
+Brinjal Round,55.0,vegetable,purple,plastic
+Cow Pea(Long),85.0,vegetable,green,plastic
+Cowpea(Short),86.67,vegetable,green,plastic
+Green Peas,155.0,vegetable,green,plastic
+French Bean(Local),86.0,vegetable,green,plastic
+French Bean(Hybrid),86.67,vegetable,green,plastic
+French Bean(Rajma),136.67,vegetable,red,plastic
+Soyabean Green,110.0,vegetable,green,plastic
+Bitter Gourd,45.0,vegetable,green,plastic
+Bottle Gourd,55.0,vegetable,green,plastic
+Pointed Gourd(Local),85.0,vegetable,green,plastic
+Pointed Gourd(Terai),75.0,vegetable,green,plastic
+Snake Gourd,66.67,vegetable,green,plastic
+Smooth Gourd,45.0,vegetable,green,plastic
+Sponge Gourd,66.67,vegetable,green,plastic
+Pumpkin,38.33,vegetable,orange,plastic
+Squash(Long),45.0,vegetable,green,plastic
+Squash(Round),45.0,vegetable,green,plastic
+Okra,40.0,vegetable,green,plastic
+Sweet Potato,76.67,vegetable,orange,plastic
+Christophine,75.0,vegetable,green,plastic
+Broad Leaf Mustard,46.67,vegetable,green,plastic
+Spinach Leaf,156.67,vegetable,green,plastic
+Cress Leaf,136.67,vegetable,green,plastic
+Mustard Leaf,35.0,vegetable,green,plastic
+Fenugreek Leaf,135.0,vegetable,green,plastic
+Onion Green,86.67,vegetable,green,plastic
+Yam,100.0,vegetable,brown,plastic
+Mushroom(Kanya),160.0,vegetable,white,plastic
+Mushroom(Button),400.0,vegetable,white,plastic
+Asparagus,325.0,vegetable,green,plastic
+Neuro,130.0,vegetable,green,plastic
+Broccoli,96.67,vegetable,green,plastic
+Sugarbeet,65.0,vegetable,purple,plastic
+Drumstick,96.67,vegetable,green,plastic
+Red Cabbage,56.67,vegetable,red,plastic
+Lettuce,86.67,vegetable,green,plastic
+Celery,135.0,vegetable,green,plastic
+Parsley,275.0,vegetable,green,plastic
+Fennel Leaf,135.0,vegetable,green,plastic
+Mint,165.0,vegetable,green,plastic
+Turnip A,75.0,vegetable,white,plastic
+Tamarind,155.0,fruit,brown,plastic
+Bamboo Shoot,110.0,vegetable,white,plastic
+Tofu,160.0,protein,white,plastic
+Gundruk,275.0,vegetable,green,plastic
+Apple(Fuji),315.0,fruit,red,plastic
+Banana,125.0,fruit,yellow,plastic
+Lime,276.0,fruit,green,plastic
+Pomegranate,375.0,fruit,red,plastic
+Mango(Maldah),235.0,fruit,yellow,plastic
+Mango(Dushari),210.0,fruit,yellow,plastic
+Mango(Calcutte),170.0,fruit,yellow,plastic
+Grapes(Green),190.0,fruit,green,plastic
+Watermelon(Green),35.0,fruit,green,plastic
+Sweet Orange,190.0,fruit,orange,plastic
+Mandarin,265.0,fruit,orange,plastic
+Pineapple,190.0,fruit,yellow,plastic
+Cucumber(Local),60.0,vegetable,green,plastic
+Cucumber(Hybrid),25.0,vegetable,green,plastic
+Jackfruit,60.0,fruit,green,plastic
+Pear(Chinese),235.0,fruit,green,plastic
+Papaya(Nepali),96.67,fruit,orange,plastic
+Papaya(Indian),86.67,fruit,orange,plastic
+Kiwi,625.0,fruit,brown,plastic
+Avocado,625.0,fruit,green,plastic
+Ginger,270.0,vegetable,brown,plastic
+Chilli Dry,425.0,vegetable,red,plastic
+Chilli Green,98.0,vegetable,green,plastic
+Chilli Green(Bullet),116.67,vegetable,green,plastic
+Chilli Green(Machhe),56.0,vegetable,green,plastic
+Capsicum,65.0,vegetable,green,plastic
+Garlic Green,86.67,vegetable,green,plastic
+Coriander Green,158.0,vegetable,green,plastic
+Garlic Dry Chinese,256.0,vegetable,white,plastic
+Garlic Dry Nepali,190.0,vegetable,white,plastic
+Clove Dry,155.0,spice,brown,plastic
+Clove Green,155.0,spice,green,plastic
+Fish Fresh(Rahu),330.0,fish,silver,plastic
+Fish Fresh(Bachuwa),245.0,fish,silver,plastic
+Fish Fresh(Chhadi),250.0,fish,silver,plastic
+Fish Fresh(Mungari),340.0,fish,silver,plastic
+King Oyster,290.0,vegetable,white,plastic
+Lentinula Edodes,1000.0,vegetable,brown,plastic
+lettuce, 100.0, vegetable, green, plastic bag
+onion, 40.0, vegetable, yellow, plastic bag
+potato, 30.0, vegetable, brown, plastic bag
+rice, 100.0, grain, white, plastic bag
+pasta, 80.0, grain, yellow, plastic bag
+water, 100.0, beverage, clear, plastic bottle
+soda, 120.0, beverage, brown, plastic bottle
+cookies, 250.0, snack, brown, plastic bag
+chocolate, 300.0, snack, brown, wrapper
+ice cream, 400.0, dessert, white, container
+yogurt, 120.0, dairy, white, container
+cheese, 250.0, dairy, yellow, wrapper
+ham, 300.0, meat, pink, wrapper
+chicken, 500.0, meat, white, plastic bag
+beef, 800.0, meat, red, wrapper
+fish, 600.0, seafood, white, plastic bag
+shrimp, 1000.0, seafood, pink, plastic bag
+salmon, 1200.0, seafood, pink, plastic bag
+tuna, 900.0, seafood, red, can
+crackers, 200.0, snack, brown, plastic bag
+popcorn, 100.0, snack, yellow, plastic bag
+pretzels, 150.0, snack, brown, plastic bag
+apple juice, 200.0, beverage, yellow, carton
+orange, 60.0, fruit, orange, plastic bag
+grapes, 200.0, fruit, purple, plastic bag
+pineapple, 150.0, fruit, yellow, plastic bag
+kiwi, 80.0, fruit, green, plastic bag
+strawberries, 300.0, fruit, red, plastic container
+blueberries, 250.0, fruit, blue, plastic container
+raspberries, 350.0, fruit, red, plastic container
+blackberries, 300.0, fruit, black, plastic container
+peaches, 150.0, fruit, orange, plastic bag
+nectarines, 180.0, fruit, orange, plastic bag
+apricots, 200.0, fruit, orange, plastic bag
+plums, 120.0, fruit, purple, plastic bag
+cherries, 400.0, fruit, red, plastic bag
+watermelon, 300.0, fruit, green, plastic container
+cantaloupe, 250.0, fruit, orange, plastic container
+honeydew, 250.0, fruit, green, plastic container
+lemon, 40.0, fruit, yellow, plastic bag
+lime, 30.0, fruit, green, plastic bag
+pepper, 50.0, vegetable, green, plastic bag
+bell pepper, 70.0, vegetable, red, plastic bag
+jalapeno, 60.0, vegetable, green, plastic bag
+cabbage, 100.0, vegetable, green, plastic bag
+spinach, 120.0, vegetable, green, plastic bag
+kale, 150.0, vegetable, green, plastic bag
+broccoli, 120.0, vegetable, green, plastic bag
+cauliflower, 150.0, vegetable, white, plastic bag
+brussels sprouts, 180.0, vegetable, green, plastic bag
+asparagus, 200.0, vegetable, green, plastic bag
+celery, 100.0, vegetable, green, plastic bag
+green beans, 120.0, vegetable, green, plastic bag
+snap peas, 150.0, vegetable, green, plastic bag
+snow peas, 150.0, vegetable, green, plastic bag
+radish, 60.0, vegetable, red, plastic bag
+beet, 80.0, vegetable, red, plastic bag
+turnip, 70.0, vegetable, white, plastic bag
+rutabaga, 90.0, vegetable, white, plastic bag
+parsnip, 70.0, vegetable, white, plastic bag
+zucchini, 80.0, vegetable, green, plastic bag
+summer squash, 80.0, vegetable, yellow, plastic bag
+winter squash, 100.0, vegetable, orange, plastic bag
+butternut squash, 120.0, vegetable, orange, plastic bag
+acorn squash, 120.0, vegetable, green, plastic bag
+pumpkin, 200.0, vegetable, orange, plastic bag
+sweet potato, 50.0, vegetable, orange, plastic bag

@@ -8,7 +8,7 @@ This bot is designed to find a path from a starting number to a destination numb
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/itsmanishgautam/Python-AI-Class/tree/main/Task_9
    ```
 
 2. Navigate to the project directory:

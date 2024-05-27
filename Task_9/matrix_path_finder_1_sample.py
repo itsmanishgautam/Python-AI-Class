@@ -1,6 +1,6 @@
 import math
 import random
-from collections import deque
+# from collections import deque
 
 
 def bot_select_from_outer_layer(matrix):

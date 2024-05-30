@@ -3,7 +3,7 @@ import json
 import Levenshtein
 import random
 
-with open('Task_4/Kaggle Dataset/data.json', 'r') as file:
+with open('Task_4/data.json', 'r') as file:
     data = json.load(file)
 
 def calculate_similarity(input_str, query):
@@ -12,8 +12,8 @@ def calculate_similarity(input_str, query):
     return similarity
 
 def generate_response(user_input, query_counts):
-    if os.path.exists("Task_4/Kaggle Dataset/query_counts.json"):
-        with open("Task_4/Kaggle Dataset/query_counts.json", "r") as file:
+    if os.path.exists("Task_4/query_counts.json"):
+        with open("Task_4/query_counts.json", "r") as file:
             query_counts = json.load(file)
 
     irritated_responses = [response for intent in data['intents'] if intent['tag'] == 'irritated_responses' for response in intent['responses']]
@@ -35,7 +35,7 @@ def generate_response(user_input, query_counts):
     
     query_counts[user_input.strip().lower()] = query_counts.get(user_input.strip().lower(), 0) + 1
 
-    with open("Task_4/Kaggle Dataset/query_counts.json", "w") as file:
+    with open("Task_4/query_counts.json", "w") as file:
         json.dump(query_counts, file)
 
     return response
@@ -53,5 +53,5 @@ while True:
         response = generate_response(user_input, query_counts)
         print("Bot:", response)
 
-if os.path.exists("Task_4/Kaggle Dataset/query_counts.json"):
-    os.remove("Task_4/Kaggle Dataset/query_counts.json")
+if os.path.exists("Task_4/query_counts.json"):
+    os.remove("Task_4/query_counts.json")

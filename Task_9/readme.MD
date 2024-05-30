@@ -4,26 +4,41 @@ This bot is designed to find a path from a starting number to a destination numb
 
 
 ## Usage
+# AI Engineer's Matrix Navigation Bot
 
-1. Clone the repository:
+This Python script demonstrates a matrix navigation bot capable of finding a path from a randomly selected starting position to a randomly chosen destination number within the matrix.
 
-   ```
-   git clone https://github.com/itsmanishgautam/Python-AI-Class/tree/main/Task_9
-   ```
+## Overview
 
-2. Navigate to the project directory:
+The script consists of several functions:
 
-   ```
-   cd your-repository
-   ```
+1. **bot_select_from_outer_layer(matrix)**: Selects a random number from the outer layer of the matrix.
 
-3. Run the bot script:
+2. **choose_random_number_in_matrix(matrix)**: Chooses a random number from within the matrix.
 
-   ```
-   python bot.py
-   ```
+3. **find_path(matrix, bot_number, number_to_find)**: Finds a path from the starting position (bot_number) to the destination number (number_to_find) using a modified breadth-first search algorithm.
 
-4. Follow the on-screen instructions to input a number and observe the path found by the bot.
+## Example Usage
+
+1. The user inputs a number which determines the size of the matrix.
+2. The script generates a matrix of random numbers.
+3. The bot selects a number from the outer layer of the matrix.
+4. The script finds a path from the bot's starting position to a randomly chosen destination number within the matrix.
+
+## Dependencies
+
+- `math`: For mathematical operations.
+- `random`: For generating random numbers.
+- `collections.deque` (currently commented out): Could be used for deque operations, but not utilized in the current implementation.
+
+## Usage
+
+1. Run the script.
+2. Input a number to determine the size of the matrix.
+3. View the generated matrix and the selected numbers.
+4. If a path is found, it will be displayed; otherwise, a message indicating no path is found will be shown.
+
+
 
 ## Functionality
 
@@ -31,10 +46,4 @@ This bot is designed to find a path from a starting number to a destination numb
 - It selects a starting number from the outer layer of the matrix and a destination number from within the matrix.
 - It then attempts to find a path from the starting number to the destination number.
 - If a path is found, it prints the path. Otherwise, it indicates that no path was found.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
-
-## License
 

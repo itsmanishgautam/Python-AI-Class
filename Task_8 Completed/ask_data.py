@@ -1,7 +1,7 @@
 import csv
 
 # Define the CSV filename
-csv_filename = "Task_8/csv/product_data.csv"
+csv_filename = "Task_8 Completed/csv/product_data.csv"
 tokenized_product_data = []
 original_product_data = []
 

@@ -1,96 +1,84 @@
-## Overview
+# README.md
 
-This document consolidates all the work I have undertaken during my internship period. It encompasses various projects involving text processing, machine learning, web scraping, chatbot development, data processing, investment analysis, and more.
+### Overview
+This repository contains scripts for retrieving FOREX rates from the Nepal Rastra Bank API and scraping share price data from Sharesansar. The scripts demonstrate web scraping, data extraction, and CSV file creation using Python.
 
-## Projects and Learning Outcomes
+---
 
+### 1. **FOREX Rates Retrieval Script**
 
+#### Description
+This script retrieves foreign exchange rates for a specified date from the Nepal Rastra Bank API.
 
-### 1. **Job Scraping Project**
-- **Objective**: Scrape job listings from Jobs Nepal using BeautifulSoup and regex.
-- **Features**:
-  - **Scraping Techniques**: Utilized BeautifulSoup and regex for extracting job data.
-  - **Data Export**: Saved scraped data into CSV files.
-- **Learning Outcome**: Improved web scraping skills and understanding of HTML parsing.
+#### Features
+- **API Request**: Sends GET requests to the Nepal Rastra Bank API to fetch FOREX rates.
+- **Date Input**: Accepts a date input in the format `YYYY-MM-DD` from the user.
+- **Error Handling**: Checks for successful responses and handles errors appropriately.
 
-### 2. **Chatbot with User Input Matching and Irritated Responses**
-- **Objective**: Develop a chatbot that matches user input with predefined patterns and includes irritated responses.
-- **Features**:
-  - **User Input Matching**: Uses Levenshtein distance for string similarity.
-  - **Irritated Responses**: Responds with irritation if similar queries are repeated.
-- **Learning Outcome**: Enhanced skills in NLP and chatbot development.
+#### Usage
+1. Run the script.
+2. Enter the date in the format `YYYY-MM-DD` when prompted.
+3. The script will display the retrieved FOREX data or an error message if the request fails.
 
-### 3. **Relation Sorting and Matching with NLP**
-- **Objective**: Sort relation data into a linked list and match user input using NLP.
-- **Features**:
-  - **Sorted Linked List**: Categorizes and sorts relation data.
-  - **User Input Matching**: Matches user input with relation data using spaCy.
-- **Learning Outcome**: Gained experience in data structures and NLP with spaCy.
+---
 
-### 4. **Event and Data Analysis**
-- **Objective**: Extract and analyze key data from articles and events.
-- **Features**:
-  - **Data Extraction**: Extracted and summarized data from various sources.
-  - **Analysis**: Analyzed and presented key information.
-- **Learning Outcome**: Improved data analysis and summarization skills.
+### 2. **Share Price Data Scraping Script**
 
-### 5. **KMC Skill Fair 2024**
-- **Objective**: Document the details and objectives of the KMC Skill Fair 2024.
-- **Features**:
-  - **Training Programs**: Listed vocational training areas and details.
-  - **Collaboration**: Noted collaborating organizations and key dates.
-- **Learning Outcome**: Enhanced documentation and reporting skills.
+#### Description
+This script scrapes share price data from Sharesansar for a specified date.
 
-### 6. **CSV Data Processing**
-- **Objective**: Tokenize CSV data and provide search functionality.
-- **Features**:
-  - **Tokenization**: Tokenized CSV data for easier processing.
-  - **Appending Data**: Allowed interactive entry and storage of product data.
-- **Learning Outcome**: Improved CSV handling and data processing in Python.
+#### Features
+- **CSRF Token Handling**: Retrieves and uses the CSRF token required for making POST requests to the Sharesansar website.
+- **HTML Parsing**: Uses BeautifulSoup to parse HTML and extract share price data.
+- **Data Structuring**: Organizes extracted data into a structured format.
+- **CSV Export**: Saves the structured data into a CSV file.
 
-### 7. **Matrix Navigation Bot**
-- **Objective**: Develop a bot to find a path in a matrix using a greedy algorithm.
-- **Features**:
-  - **Pathfinding**: Implemented a pathfinding algorithm.
-  - **Random Matrix Generation**: Generated random matrices and selected starting points.
-- **Learning Outcome**: Enhanced problem-solving and algorithm implementation skills.
+#### Usage
+1. Run the script.
+2. Enter the date in the format `YYYY-MM-DD` when prompted.
+3. The script will display the extracted data or a message if no records are found.
 
-### 8. **Mathematical Operation Extraction Script**
-- **Objective**: Extract mathematical operations and numbers from text input, compute the result, and display it.
-- **Features**:
-  - **Keyword Extraction**: Identifies operation type (sum, difference, product, division, power) from synonyms.
-  - **Number Extraction**: Retrieves numerical values using regular expressions.
-  - **Computation**: Performs the extracted operation on the numbers.
-- **Learning Outcome**: Enhanced understanding of text processing and regex in Python.
+---
 
-### 9. **Text Classification with TensorFlow/Keras**
-- **Objective**: Implement text classification using an Embedding layer and a neural network for binary classification.
-- **Features**:
-  - **Data Preprocessing**: Tokenizes and pads text data.
-  - **Model Architecture**: Embedding layer, GlobalAveragePooling1D, Dense layers.
-  - **Training and Prediction**: Trained with binary crossentropy loss and Adam optimizer; predicts labels for user-input sentences.
-- **Learning Outcome**: Gained experience in using TensorFlow/Keras for NLP tasks.
+### Requirements
 
-### 10. **Linear Regression from Scratch**
-- **Objective**: Implement linear regression from scratch using Python.
-- **Features**:
-  - **Data Generation**: Creates a synthetic dataset with noise.
-  - **Model Training**: Uses the normal equation to compute optimal weights.
-  - **Evaluation**: Calculates mean squared error and visualizes results.
-- **Learning Outcome**: Deepened knowledge of linear regression and data visualization using Matplotlib.
+- Python 3.x
+- `requests` library
+- `BeautifulSoup4` library
+- `datetime` library
+- `re` library
+- `csv` library
 
-### 11. **Investment Analysis**
-- **Objective**: Analyze various investment options in Nepal over the past six months.
-- **Features**:
-  - **Data Analysis**: Analyzed NEPSE performance, bank interest rates, and commodity prices.
-  - **Profitability Assessment**: Evaluated the profitability of different investment options.
-- **Learning Outcome**: Gained insights into financial analysis and investment strategies.
+---
 
-### 12. **Cashflow Management App**
-- **Objective**: To scrap data and to make available to the team members.
+### Installation
 
-## Programmer
+1. Clone this repository.
+2. Install the required libraries:
+   ```bash
+   pip install requests beautifulsoup4
+   ```
+3. Run the desired script using Python:
+   ```bash
+   python forex_rates.py
+   ```
+   or
+   ```bash
+   python share_price_scraper.py
+   ```
+
+---
+
+### Learning Outcomes
+
+- **FOREX Rates Retrieval Script**: Improved skills in API requests, JSON handling, and error management.
+- **Share Price Data Scraping Script**: Enhanced web scraping techniques, HTML parsing with BeautifulSoup, and data structuring for CSV export.
+
+---
+
+### Programmer
 Manish Gautam
 
-## Mentor, Brain
+### Mentor
 Dixanta Bahadur Shrestha
+CIBT, Kumaripati

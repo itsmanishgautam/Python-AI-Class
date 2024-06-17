@@ -1,104 +1,96 @@
-**Still Learning the Python AI**
+## Overview
 
-**Some programs might not be completed**
+This document consolidates all the work I have undertaken during my internship period. It encompasses various projects involving text processing, machine learning, web scraping, chatbot development, data processing, investment analysis, and more.
 
-# MY GOAL : To be Senior AI/ML/NLP Engineer Knowledge Guide
+## Projects and Learning Outcomes
 
-## Core Knowledge
 
-### Mathematics and Statistics
-- Linear Algebra
-- Calculus (differentiation, integration, partial derivatives)
-- Probability and Statistics
-- Optimization techniques
 
-### Programming Languages
-- Python (with libraries like NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Keras)
-- R
-- SQL
-- Java, C++, or another high-performance language (for specific use cases)
+### 1. **Job Scraping Project**
+- **Objective**: Scrape job listings from Jobs Nepal using BeautifulSoup and regex.
+- **Features**:
+  - **Scraping Techniques**: Utilized BeautifulSoup and regex for extracting job data.
+  - **Data Export**: Saved scraped data into CSV files.
+- **Learning Outcome**: Improved web scraping skills and understanding of HTML parsing.
 
-### Machine Learning
-- Supervised Learning (regression, classification)
-- Unsupervised Learning (clustering, dimensionality reduction)
-- Semi-supervised Learning
-- Reinforcement Learning
-- Ensemble methods (bagging, boosting, stacking)
-- Model evaluation and validation techniques (cross-validation, ROC curves, precision-recall)
+### 2. **Chatbot with User Input Matching and Irritated Responses**
+- **Objective**: Develop a chatbot that matches user input with predefined patterns and includes irritated responses.
+- **Features**:
+  - **User Input Matching**: Uses Levenshtein distance for string similarity.
+  - **Irritated Responses**: Responds with irritation if similar queries are repeated.
+- **Learning Outcome**: Enhanced skills in NLP and chatbot development.
 
-### Deep Learning
-- Neural Networks (architecture, training, activation functions)
-- Convolutional Neural Networks (CNNs)
-- Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM), GRUs
-- Autoencoders
-- Generative Adversarial Networks (GANs)
-- Transfer Learning
-- Hyperparameter tuning and optimization
+### 3. **Relation Sorting and Matching with NLP**
+- **Objective**: Sort relation data into a linked list and match user input using NLP.
+- **Features**:
+  - **Sorted Linked List**: Categorizes and sorts relation data.
+  - **User Input Matching**: Matches user input with relation data using spaCy.
+- **Learning Outcome**: Gained experience in data structures and NLP with spaCy.
 
-## Natural Language Processing (NLP)
-- Text preprocessing (tokenization, stemming, lemmatization)
-- Text representation (Bag of Words, TF-IDF, word embeddings like Word2Vec, GloVe)
-- Sequence models (RNN, LSTM, GRU)
-- Transformer models (BERT, GPT, etc.)
-- Named Entity Recognition (NER)
-- Part-of-Speech (POS) tagging
-- Syntax and Parsing
-- Sentiment Analysis
-- Machine Translation
-- Speech Recognition and Processing
+### 4. **Event and Data Analysis**
+- **Objective**: Extract and analyze key data from articles and events.
+- **Features**:
+  - **Data Extraction**: Extracted and summarized data from various sources.
+  - **Analysis**: Analyzed and presented key information.
+- **Learning Outcome**: Improved data analysis and summarization skills.
 
-## Tools and Libraries
-- TensorFlow, PyTorch, Keras
-- Scikit-learn
-- NLTK, SpaCy
-- Gensim
-- OpenCV
-- Matplotlib, Seaborn for visualization
-- Jupyter Notebooks
-- Docker, Kubernetes for containerization
-- Git for version control
+### 5. **KMC Skill Fair 2024**
+- **Objective**: Document the details and objectives of the KMC Skill Fair 2024.
+- **Features**:
+  - **Training Programs**: Listed vocational training areas and details.
+  - **Collaboration**: Noted collaborating organizations and key dates.
+- **Learning Outcome**: Enhanced documentation and reporting skills.
 
-## Data Engineering
-- Data cleaning and preprocessing
-- Feature engineering
-- Data augmentation
-- ETL (Extract, Transform, Load) processes
-- Data pipeline tools (Airflow, Luigi)
-- Big Data technologies (Hadoop, Spark)
+### 6. **CSV Data Processing**
+- **Objective**: Tokenize CSV data and provide search functionality.
+- **Features**:
+  - **Tokenization**: Tokenized CSV data for easier processing.
+  - **Appending Data**: Allowed interactive entry and storage of product data.
+- **Learning Outcome**: Improved CSV handling and data processing in Python.
 
-## Software Engineering Practices
-- Code quality and best practices
-- Software design patterns
-- Version control systems (Git)
-- Continuous Integration/Continuous Deployment (CI/CD)
-- Agile methodologies (Scrum, Kanban)
+### 7. **Matrix Navigation Bot**
+- **Objective**: Develop a bot to find a path in a matrix using a greedy algorithm.
+- **Features**:
+  - **Pathfinding**: Implemented a pathfinding algorithm.
+  - **Random Matrix Generation**: Generated random matrices and selected starting points.
+- **Learning Outcome**: Enhanced problem-solving and algorithm implementation skills.
 
-## Cloud Computing
-- Cloud platforms (AWS, Google Cloud, Azure)
-- Machine Learning as a Service (MLaaS) offerings (SageMaker, Google AI Platform)
-- Scaling ML models in production
+### 8. **Mathematical Operation Extraction Script**
+- **Objective**: Extract mathematical operations and numbers from text input, compute the result, and display it.
+- **Features**:
+  - **Keyword Extraction**: Identifies operation type (sum, difference, product, division, power) from synonyms.
+  - **Number Extraction**: Retrieves numerical values using regular expressions.
+  - **Computation**: Performs the extracted operation on the numbers.
+- **Learning Outcome**: Enhanced understanding of text processing and regex in Python.
 
-## Domain Knowledge
-- Understanding of the specific domain where AI/ML/NLP is applied (e.g., healthcare, finance, e-commerce)
+### 9. **Text Classification with TensorFlow/Keras**
+- **Objective**: Implement text classification using an Embedding layer and a neural network for binary classification.
+- **Features**:
+  - **Data Preprocessing**: Tokenizes and pads text data.
+  - **Model Architecture**: Embedding layer, GlobalAveragePooling1D, Dense layers.
+  - **Training and Prediction**: Trained with binary crossentropy loss and Adam optimizer; predicts labels for user-input sentences.
+- **Learning Outcome**: Gained experience in using TensorFlow/Keras for NLP tasks.
 
-## Soft Skills
-- Problem-solving and analytical thinking
-- Communication skills (ability to explain complex concepts to non-technical stakeholders)
-- Collaboration and teamwork
-- Project management
+### 10. **Linear Regression from Scratch**
+- **Objective**: Implement linear regression from scratch using Python.
+- **Features**:
+  - **Data Generation**: Creates a synthetic dataset with noise.
+  - **Model Training**: Uses the normal equation to compute optimal weights.
+  - **Evaluation**: Calculates mean squared error and visualizes results.
+- **Learning Outcome**: Deepened knowledge of linear regression and data visualization using Matplotlib.
 
-## Research and Development
-- Keeping up with the latest research papers and trends
-- Understanding and implementing research papers
-- Experimentation and prototyping
+### 11. **Investment Analysis**
+- **Objective**: Analyze various investment options in Nepal over the past six months.
+- **Features**:
+  - **Data Analysis**: Analyzed NEPSE performance, bank interest rates, and commodity prices.
+  - **Profitability Assessment**: Evaluated the profitability of different investment options.
+- **Learning Outcome**: Gained insights into financial analysis and investment strategies.
 
-## Specific Advanced Topics (Optional but Beneficial)
-- Federated Learning
-- Explainable AI (XAI)
-- Ethical AI and bias mitigation
-- Quantum Machine Learning (QML)
-- Advanced optimization algorithms (Bayesian optimization, evolutionary algorithms)
-- Edge AI and on-device ML
-- Knowledge Graphs and Semantic Web
+### 12. **Cashflow Management App**
+- **Objective**: To scrap data and to make available to the team members.
 
-This list is extensive but not exhaustive, as the field of AI, ML, and NLP is continuously evolving. A senior engineer would have a strong grasp of these areas, with in-depth expertise in several of them, and a good understanding of the latest trends and research in the field.
+## Programmer
+Manish Gautam
+
+## Mentor, Brain
+Dixanta Bahadur Shrestha

@@ -1,3 +1,6 @@
+# Title
+This program allows users to enter and store product details in a CSV file (`product_data.csv`). It also provides a search functionality where users can input sentences containing keywords to find and display matching products from the CSV file.
+
 # CSV Data Processing
 
 This Python script demonstrates basic CSV data processing tasks, including reading and tokenizing data from a CSV file, as well as appending new data to the CSV file.
@@ -37,3 +40,8 @@ The script allows users to enter product data interactively and appends it to th
 
 - `csv`: For reading and writing CSV files.
 
+## Programmer
+Manish Gautam
+
+## Mentor, Brain
+Dixanta Bahadur Shrestha

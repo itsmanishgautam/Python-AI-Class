@@ -1,87 +1,96 @@
-## Task List
+## Overview
 
-1. **List all banks.**
-2. **Import turnover yearly of respective banks.**
-3. **Import interest rates from various dates (at least 5 years).**
-4. **Import commodities prices date-wise for 5 years (gold, silver, copper, brass, oil, wheat, rice).**
-5. **Import Forex from various dates for at least 5 years.**
-6. **Import share prices date-wise for at least 5 years.**
+This document consolidates all the work I have undertaken during my internship period. It encompasses various projects involving text processing, machine learning, web scraping, chatbot development, data processing, investment analysis, and more.
 
-## README.md
-
-### Investment Analysis for the Past Six Months
-
-This document provides an analysis of various investment options in Nepal, including the NEPSE share bazar, bank fixed deposits, gold, silver, and other commodities. The analysis covers the performance of these investments over the past six months to help a user decide the most profitable investment strategy.
-
-### Data Analysis
-
-1. **Currency Conversion**
-   - **Amount in NPR**: 10,000
-   - **Exchange Rate (1 USD = 132 NPR)**:
-     - The conversion amount is calculated to provide a reference for international comparisons.
-
-2. **NEPSE Share Bazar Performance**
-   - **General Trend**: Analysis of NEPSE index and key sectors.
-   - **Sector Performance**:
-     - Performance of sectors like Banking, Hydropower, Insurance, and Manufacturing over the past six months.
-
-3. **Bank Fixed Deposit and Savings Interest Rates**
-   - **Major Banks in Nepal**:
-     - Comparison of fixed deposit and savings interest rates provided by banks such as Nepal Investment Bank, Himalayan Bank, and Nabil Bank over the past six months.
-
-4. **Bank Turnover and Loan Eligibility**
-   - **Bank Turnover**:
-     - Analysis of bank turnover to determine which bank has the highest turnover and is most eligible for loans.
-   - **Loan Eligibility**:
-     - Criteria based on turnover to assess loan eligibility.
-
-5. **Gold and Silver Price Trends**
-   - **Gold**:
-     - Historical price trends of gold over the past six months.
-   - **Silver**:
-     - Historical price trends of silver over the past six months.
-
-6. **Commodities Price Trends**
-   - **Oil**: 
-     - Historical price trends of oil over the past six months.
-   - **Rice**:
-     - Historical price trends of rice over the past six months.
-   - **Wheat**:
-     - Historical price trends of wheat over the past six months.
-   - **Brass**:
-     - Historical price trends of brass over the past six months.
-   - **Copper**:
-     - Historical price trends of copper over the past six months.
-
-### Profitability Analysis
-
-To decide which investment would have been most profitable over the past six months, consider the following:
-
-1. **NEPSE Share Bazar**: Mixed results depending on the sector, with some sectors showing significant gains.
-2. **Fixed Deposits**: Moderate, risk-free returns.
-3. **Gold**: A solid investment with a noticeable increase.
-4. **Silver**: Also a good investment with a noticeable increase.
-5. **Commodities**: Varying increases, with certain commodities showing higher increases.
-
-### Conclusion
-
-Based on the data, the **most profitable investment** over the past six months would have been in **commodities like Oil** and **precious metals like Gold**. For a more balanced approach, investing in a mix of high-performing NEPSE sectors, fixed deposits for stable returns, and precious metals like gold and silver would be advisable.
-
-### Recommendations
-
-- **Risk Tolerance**: Higher risk tolerance can lead to investing more in stocks and commodities.
-- **Stability Preference**: For stability, fixed deposits and savings accounts are safer.
-- **Diversification**: Diversifying across different sectors and investment types can mitigate risks.
-
-### Notes
-
-- **Data Accuracy**: The provided rates and prices are based on the most recent available data and can fluctuate.
-- **Investment Advice**: Consult with a financial advisor for personalized investment strategies.
-
-This README provides an overview of the past performance of various investments and helps in making an informed decision based on historical data.
+## Projects and Learning Outcomes
 
 
 
-RAW DATA
+### 1. **Job Scraping Project**
+- **Objective**: Scrape job listings from Jobs Nepal using BeautifulSoup and regex.
+- **Features**:
+  - **Scraping Techniques**: Utilized BeautifulSoup and regex for extracting job data.
+  - **Data Export**: Saved scraped data into CSV files.
+- **Learning Outcome**: Improved web scraping skills and understanding of HTML parsing.
 
-a user have a 10000 rupees convert into Dollar   ,  nepse share bazar,  Bank gold silver commodities .            first six month nepse  share bazar all shares up or down rate, how much a bank will give on past six month on fixed deposit or savings interest, check bank turnover to decide which bank has highest and eligible for loan,   gold silver past 6 month is it increase or decrease rate , commodities like oil,rice,wheat,gold, silver, brass, copper,  increase decrease rate.   THis is all for a user to decide which will profit them most profit obatained if they have invested in past 6 month. ,                   write readme.MD for it, explain  data in list
+### 2. **Chatbot with User Input Matching and Irritated Responses**
+- **Objective**: Develop a chatbot that matches user input with predefined patterns and includes irritated responses.
+- **Features**:
+  - **User Input Matching**: Uses Levenshtein distance for string similarity.
+  - **Irritated Responses**: Responds with irritation if similar queries are repeated.
+- **Learning Outcome**: Enhanced skills in NLP and chatbot development.
+
+### 3. **Relation Sorting and Matching with NLP**
+- **Objective**: Sort relation data into a linked list and match user input using NLP.
+- **Features**:
+  - **Sorted Linked List**: Categorizes and sorts relation data.
+  - **User Input Matching**: Matches user input with relation data using spaCy.
+- **Learning Outcome**: Gained experience in data structures and NLP with spaCy.
+
+### 4. **Event and Data Analysis**
+- **Objective**: Extract and analyze key data from articles and events.
+- **Features**:
+  - **Data Extraction**: Extracted and summarized data from various sources.
+  - **Analysis**: Analyzed and presented key information.
+- **Learning Outcome**: Improved data analysis and summarization skills.
+
+### 5. **KMC Skill Fair 2024**
+- **Objective**: Document the details and objectives of the KMC Skill Fair 2024.
+- **Features**:
+  - **Training Programs**: Listed vocational training areas and details.
+  - **Collaboration**: Noted collaborating organizations and key dates.
+- **Learning Outcome**: Enhanced documentation and reporting skills.
+
+### 6. **CSV Data Processing**
+- **Objective**: Tokenize CSV data and provide search functionality.
+- **Features**:
+  - **Tokenization**: Tokenized CSV data for easier processing.
+  - **Appending Data**: Allowed interactive entry and storage of product data.
+- **Learning Outcome**: Improved CSV handling and data processing in Python.
+
+### 7. **Matrix Navigation Bot**
+- **Objective**: Develop a bot to find a path in a matrix using a greedy algorithm.
+- **Features**:
+  - **Pathfinding**: Implemented a pathfinding algorithm.
+  - **Random Matrix Generation**: Generated random matrices and selected starting points.
+- **Learning Outcome**: Enhanced problem-solving and algorithm implementation skills.
+
+### 8. **Mathematical Operation Extraction Script**
+- **Objective**: Extract mathematical operations and numbers from text input, compute the result, and display it.
+- **Features**:
+  - **Keyword Extraction**: Identifies operation type (sum, difference, product, division, power) from synonyms.
+  - **Number Extraction**: Retrieves numerical values using regular expressions.
+  - **Computation**: Performs the extracted operation on the numbers.
+- **Learning Outcome**: Enhanced understanding of text processing and regex in Python.
+
+### 9. **Text Classification with TensorFlow/Keras**
+- **Objective**: Implement text classification using an Embedding layer and a neural network for binary classification.
+- **Features**:
+  - **Data Preprocessing**: Tokenizes and pads text data.
+  - **Model Architecture**: Embedding layer, GlobalAveragePooling1D, Dense layers.
+  - **Training and Prediction**: Trained with binary crossentropy loss and Adam optimizer; predicts labels for user-input sentences.
+- **Learning Outcome**: Gained experience in using TensorFlow/Keras for NLP tasks.
+
+### 10. **Linear Regression from Scratch**
+- **Objective**: Implement linear regression from scratch using Python.
+- **Features**:
+  - **Data Generation**: Creates a synthetic dataset with noise.
+  - **Model Training**: Uses the normal equation to compute optimal weights.
+  - **Evaluation**: Calculates mean squared error and visualizes results.
+- **Learning Outcome**: Deepened knowledge of linear regression and data visualization using Matplotlib.
+
+### 11. **Investment Analysis**
+- **Objective**: Analyze various investment options in Nepal over the past six months.
+- **Features**:
+  - **Data Analysis**: Analyzed NEPSE performance, bank interest rates, and commodity prices.
+  - **Profitability Assessment**: Evaluated the profitability of different investment options.
+- **Learning Outcome**: Gained insights into financial analysis and investment strategies.
+
+### 12. **Cashflow Management App**
+- **Objective**: To scrap data and to make available to the team members.
+
+## Programmer
+Manish Gautam
+
+## Mentor, Brain
+Dixanta Bahadur Shrestha

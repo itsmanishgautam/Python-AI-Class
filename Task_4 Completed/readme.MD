@@ -41,3 +41,8 @@ The script includes predefined intents for greeting, goodbye, creator informatio
 - Adjust the similarity threshold as needed for matching user input.
 - Customize the predefined intents and responses in the `data.json` file.
 
+## Programmer
+Manish Gautam
+
+## Mentor, Brain
+Dixanta Bahadur Shrestha

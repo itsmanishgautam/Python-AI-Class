@@ -1,0 +1,11 @@
+{
+    "add": "addition",
+    "addition": "sum,append",
+    "subtract": "subtraction",
+    "subtraction": "subtraction",
+    "multiply": "multiplication",
+    "multiplication": "multiplication",
+    "divide": "division",
+    "division": "division",
+    "append 20 and 40": "addition"
+}

@@ -49,3 +49,8 @@ The script reads the sorted relation data from a CSV file, preprocesses the user
 - **relation.csv**: CSV file containing relation data.
 - **sorted_relations.csv**: CSV file containing sorted relation data.
 
+## Programmer
+Manish Gautam
+
+## Mentor, Brain
+Dixanta Bahadur Shrestha

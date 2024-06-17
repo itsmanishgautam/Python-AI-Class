@@ -2,7 +2,7 @@
 
 ## Concept Overview
 
-Learning reinforcement is a process where initial mistakes are allowed during the learning phase. However, once learning transitions to reinforcement, strict adherence to established rules is mandatory unless some critical task occur.
+Learning Reinforcement is a process where initial mistakes are allowed during the learning phase to train entities not to repeat them. However, once learning transitions to reinforcement, strict adherence to established rules is mandatory unless critical tasks occur. It's an ongoing process to teach entities to follow rules and reward them based on their performance. The aim is to train entities to execute tasks effectively.
 
 ## Key Principles
 

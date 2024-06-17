@@ -38,6 +38,9 @@ Balen Shah enforces rules on those who obstruct progress. He educates the obstru
 ### Example 2: Trainee
 Trainee implementing the concepts of learning reinforcement to gain knowledge during learning hour and implementing them practically in project or work environments.
 
+### Example 3: Dog Training
+Teaching a dog to sit illustrates reinforcement learning: Initially, it explores different responses to the command "sit". When it sits correctly, immediate rewards reinforce this behavior. Over time, the dog learns to consistently sit upon command to receive rewards, demonstrating effective learning through reinforcement.
+
 
 
 ### RAW

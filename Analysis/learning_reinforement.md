@@ -8,7 +8,7 @@ Learning Reinforcement is a process where initial mistakes are allowed during th
 
 1. **Mistake Tolerance During Learning**: Mistakes are part of the learning process and are acceptable during the initial stages but rules are to be followed at all times.
    
-2. **Strict Rule Adherence During Reinforcement**: Once in the reinforcement phase, rules must be followed.
+2. **Strict Rule Commitment During Reinforcement**: Once in the reinforcement phase, rules must be followed.
 
 3. **Pre-broadcasted Rules**: The rules must be communicated to all relevant parties who can influence the entity's path to achievement.
 

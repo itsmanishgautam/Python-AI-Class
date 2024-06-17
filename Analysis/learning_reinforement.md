@@ -41,7 +41,11 @@ Trainee implementing the concepts of learning reinforcement to gain knowledge du
 ### Example 3: Dog Training
 Teaching a dog to sit illustrates reinforcement learning: Initially, it explores different responses to the command "sit". When it sits correctly, immediate rewards reinforce this behavior. Over time, the dog learns to consistently sit upon command to receive rewards, demonstrating effective learning through reinforcement.
 
+### Mentor
+Dixanta Bahadur Shrestha
 
+## Leraner/Author
+Manish Gautam
 
 ### RAW
 Learning Reinforcement can be implemented as:

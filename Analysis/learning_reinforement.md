@@ -34,6 +34,8 @@ To prevent obstacles, the best approach is to perform tasks simultaneously rathe
 
 ### Example 1: Balen Shah, Mayor of Kathmandu, Nepal
 Balen Shah enforces rules on those who obstruct progress. He educates the obstructing parties about the rules and regulations, helping them understand why their actions are obstructive and encouraging compliance.
+He enforces rules on those who obstruct. Anyone blocking the path is encouraged to understand and follow regulations through relearning or reassessment. This is crucial for societal improvement, maintaining discipline, and ensuring everyone adheres to established rules.
+"As he said, 'We cannot give notices to all 2.5 lakh houses,' 'Do I have to carry your house map with me?'" He emphasizes the importance of being aware of one's surroundings, understanding administrative rules and regulations, self-learning and operating within those boundaries. Failure to comply may result in termination or consequences.
 
 ### Example 2: Trainee
 Trainee implementing the concepts of learning reinforcement to gain knowledge during learning hour and implementing them practically in project or work environments.
@@ -46,23 +48,3 @@ Dixanta Bahadur Shrestha
 
 ### Leraner/Author
 Manish Gautam
-
-
-
-
-
-
-### RAW
-Learning Reinforcement can be implemented as:
-
-mistake can only be allowed while learning, while reinforcing it must follow the rules.
-
-the rules have to be pre broadcasted to concerns party who can later impact on entity path to achievement. 
-
-Suppose an entity is on its way to achieve its certain objectives following rules and regulations. On its way to achieve it, it may came accorss to certain obstructions or can achieve its task without interference. 
-
-Now, in case of obstruction, there can be two cases, either enforce rules on the obstruction and make them change their direction by making them realize their rules or change self direction.
-
-Only cases for changing direction will be by self reinforcing to break rules will be only when obstruction is on criticl conditions. 
-
-Ex: balen shah , mayor of kathmandu,nepal. he is enforcing rules to those who are obstructing, whoever block the path, obstruct, he is trying to bring them rules and make them realize that abstruction is wrong by making them re learn or re evaluate reules and regulations.

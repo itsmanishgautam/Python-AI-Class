@@ -44,8 +44,13 @@ Teaching a dog to sit illustrates reinforcement learning: Initially, it explores
 ### Mentor
 Dixanta Bahadur Shrestha
 
-## Leraner/Author
+### Leraner/Author
 Manish Gautam
+
+
+
+
+
 
 ### RAW
 Learning Reinforcement can be implemented as:

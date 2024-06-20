@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forex Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            font-weight: bold;
+        }
+        select, input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
+        .predicted-rates {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .plot {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter Target Currency and Prediction Date</h2>
+    <form method="post" action="{% url 'index' %}">
+        {% csrf_token %}
+        <label for="currency">Select Currency:</label><br>
+        <select id="currency" name="currency" required>
+            <option value="">-- Select a currency --</option>
+            <option value="INR">INR (Indian Rupee)</option>
+            <option value="USD">USD (U.S. Dollar)</option>
+            <option value="EUR">EUR (European Euro)</option>
+            <option value="GBP">GBP (UK Pound Sterling)</option>
+            <option value="CHF">CHF (Swiss Franc)</option>
+            <option value="AUD">AUD (Australian Dollar)</option>
+            <option value="CAD">CAD (Canadian Dollar)</option>
+            <option value="SGD">SGD (Singapore Dollar)</option>
+            <option value="JPY">JPY (Japanese Yen)</option>
+            <option value="CNY">CNY (Chinese Yuan)</option>
+            <option value="SAR">SAR (Saudi Arabian Riyal)</option>
+            <option value="QAR">QAR (Qatari Riyal)</option>
+            <option value="THB">THB (Thai Baht)</option>
+            <option value="AED">AED (UAE Dirham)</option>
+            <option value="MYR">MYR (Malaysian Ringgit)</option>
+            <option value="KRW">KRW (South Korean Won)</option>
+            <option value="SEK">SEK (Swedish Kroner)</option>
+            <option value="DKK">DKK (Danish Kroner)</option>
+            <option value="HKD">HKD (Hong Kong Dollar)</option>
+            <option value="KWD">KWD (Kuwaiti Dinar)</option>
+            <option value="BHD">BHD (Bahrain Dinar)</option>
+            <!-- Add other currency options as needed -->
+        </select><br><br>
+        <label for="prediction_date">Prediction Date:</label><br>
+        <input type="date" id="prediction_date" name="prediction_date" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if error_message %}
+        <p class="error-message">{{ error_message }}</p>
+    {% endif %}
+
+    {% if currency and buy_rate is not None and sell_rate is not None %}
+        <div class="predicted-rates">
+            <h3>Predicted  Rates for {{ currency }} on {{ predicted_date }}</h3>
+            <p>Predicted buy rate: {{ buy_rate }}</p>
+            <p>Predicted sell rate: {{ sell_rate }}</p>
+        </div>
+
+        <div class="plot">
+            <h3>Linear Regression Prediction Plot</h3>
+            <img src="data:image/png;base64,{{ plot_data }}" alt="Prediction Plot">
+        </div>
+    {% endif %}
+</body>
+</html>

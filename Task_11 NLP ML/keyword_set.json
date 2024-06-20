@@ -1,0 +1,7 @@
+{
+    "add": "addition,sum,append,total",
+    "subtract": "subtraction,minus",
+    "multiply": "multiplication,product",
+    "divide": "division,over",
+    "power": "power,squared"
+}

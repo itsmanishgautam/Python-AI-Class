@@ -1,55 +1,53 @@
 from sklearn.linear_model import LinearRegression
-from datetime import datetime, timedelta
 import numpy as np
-from .api import fetch_historical_forex_data
+import matplotlib.pyplot as plt
+from io import BytesIO
+import base64
 
-def predict_future_rates(historical_data, target_currency):
-    # Filter data for the target currency
+def predict_future_rates(historical_data, target_currency, prediction_date):
     target_data = historical_data[historical_data['currency'] == target_currency]
 
     if len(target_data) < 2:
         raise ValueError(f"Not enough historical data available for {target_currency}")
 
-    # Prepare features (dates as integers for simplicity)
     X = np.arange(len(target_data)).reshape(-1, 1)
     y_buy = target_data['buy']
     y_sell = target_data['sell']
 
-    # Create and train the models for buy and sell rates
     model_buy = LinearRegression()
     model_buy.fit(X, y_buy)
 
     model_sell = LinearRegression()
     model_sell.fit(X, y_sell)
 
-    # Predict future rates (e.g., next day)
-    next_index = len(target_data)
-    future_buy_rate = model_buy.predict([[next_index]])[0]
-    future_sell_rate = model_sell.predict([[next_index]])[0]
+    # Predict future rates for the prediction_date
+    days_since_start = (prediction_date - target_data['date'].min()).days
+    future_buy_rate = model_buy.predict([[days_since_start]])[0]
+    future_sell_rate = model_sell.predict([[days_since_start]])[0]
 
-    return future_buy_rate, future_sell_rate
+    plt.figure(figsize=(10, 6))
 
-if __name__ == "__main__":
-    try:
-        # Fetch historical data for the last 30 days
-        end_date = datetime.today()
-        start_date = end_date - timedelta(days=30)
-        historical_df = fetch_historical_forex_data(start_date, end_date)
-        while True:
-            # Get user input for target currency
-            target_currency = input("Enter the target currency (ISO3 code, e.g., USD): ")
+    plt.subplot(2, 1, 1)
+    plt.scatter(X, y_buy, color='blue', label='Actual Buy Rates')
+    plt.plot(X, model_buy.predict(X), color='red', label='Predicted Buy Rates')
+    plt.xlabel('Days')
+    plt.ylabel('Buy Rate')
+    plt.title(f'Linear Regression Prediction - Buy Rate ({target_currency})')
+    plt.legend()
 
-            try:
-                predicted_buy_rate, predicted_sell_rate = predict_future_rates(historical_df, target_currency)
-                next_day = end_date + timedelta(days=1)
-                print(f"Predicted future buy rate for {target_currency} on {next_day.strftime('%Y-%m-%d')} is: {predicted_buy_rate}")
-                print(f"Predicted future sell rate for {target_currency} on {next_day.strftime('%Y-%m-%d')} is: {predicted_sell_rate}")
-            except ValueError as e:
-                print(e)
+    plt.subplot(2, 1, 2)
+    plt.scatter(X, y_sell, color='green', label='Actual Sell Rates')
+    plt.plot(X, model_sell.predict(X), color='orange', label='Predicted Sell Rates')
+    plt.xlabel('Days')
+    plt.ylabel('Sell Rate')
+    plt.title(f'Linear Regression Prediction - Sell Rate ({target_currency})')
+    plt.legend()
 
-            # Optionally wait before fetching data again (adjust as needed)
-            import time
-            time.sleep(5)  # Wait for 1 minute before fetching data again
+    # Save plot to a BytesIO object
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png')
+    buffer.seek(0)
+    plot_data = base64.b64encode(buffer.getvalue()).decode('utf-8')
+    plt.close()
 
-    except KeyboardInterrupt:
-        print("Prediction stopped by user.")
+    return future_buy_rate, future_sell_rate, plot_data

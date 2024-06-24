@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forex Rates</title>
+</head>
+<body>
+    <h1>Forex Rates for June 24, 2024</h1>
+    <table border="1">
+        <tr>
+            <th>Currency</th>
+            <th>Unit</th>
+            <th>Buy</th>
+            <th>Sell</th>
+            <th>Source</th>
+        </tr>
+        {% for rate in rates %}
+        <tr>
+            <td>{{ rate.currency }}</td>
+            <td>{{ rate.unit }}</td>
+            <td>{{ rate.buy }}</td>
+            <td>{{ rate.sell }}</td>
+            <td>{{ rate.source }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -22,7 +22,6 @@ def fetch_historical_forex_data(start_date, end_date):
 
         if response.status_code == 200:
             forex_data = response.json()
-            # Extract necessary data
             payload = forex_data['data']['payload'][0]
             rates = payload['rates']
             for rate in rates:
@@ -35,7 +34,6 @@ def fetch_historical_forex_data(start_date, end_date):
         else:
             print(f"Failed to fetch data for {current_date.strftime('%Y-%m-%d')}")
 
-        # Move to the next date
         current_date += timedelta(days=1)
 
     return pd.DataFrame(historical_data)

@@ -1,13 +1,10 @@
 import csv
 from faker import Faker
 
-# Create a Faker object
 fake = Faker()
 
-# Define the number of records to generate
 num_records = 100
 
-# Define field names for the CSV file
 fieldnames = [
     'Street Address', 'City', 'Zip Code', 'State', 'Country', 'Country Code',
     'Latitude', 'Longitude', 'Company Name', 'Industry Type', 'Catch Phrase',
@@ -22,7 +19,6 @@ fieldnames = [
     
 ]
 
-# Generate fake data and write to CSV file
 with open('fake_data.csv', 'w', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()

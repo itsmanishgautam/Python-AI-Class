@@ -69,18 +69,15 @@ print("Categories:", categories)
 # Export to csv
 
 # %%
-# Create a list of tuples containing job titles and companies
 data = list(zip(job_titles, datacompany,locations,categories))
 import csv
 
-# Define the CSV file path
 csv_file = 'csv/Job_data_Soup2.csv'
 
-# Write the data to a CSV file
 with open(csv_file, 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(['Job Title', 'Company', 'Location', 'Category'])  # Write header row
-    writer.writerows(data)  # Write data rows
+    writer.writerows(data)  
 
 print(f'Data exported to {csv_file}')
 
@@ -136,17 +133,13 @@ totaljob_title = len(job_titles)
 print(totaljob_title)
 
 # %% [markdown]
-# Export To CSV
 
 # %%
-# Create a list of tuples containing job titles and companies
 data = list(zip(job_titles, datacompany,locations,categories))
 import csv
 
-# Define the CSV file path
 csv_file = 'csv/jobs_nepal_regex_scrap.csv'
 
-# Write the data to a CSV file
 with open(csv_file, 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(['Job Title', 'Company', 'Location', 'Category'])  # Write header row
@@ -192,14 +185,11 @@ print("Savings Deposit Rates:", Savings_Deposit)
 print("Fixed Deposit Rates:", Fixed_Deposit)
 
 # %%
-# Create a list of tuples containing job titles and companies
 data = list(zip(Bank_name,Savings_Deposit,Fixed_Deposit))
 import csv
 
-# Define the CSV file path
 csv_file = 'csv/bank_interest.csv'
 
-# Write the data to a CSV file
 with open(csv_file, 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(['Bankn Name','Savings Rate','Fixed Rate'])  # Write header row
@@ -266,7 +256,6 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
-# Load CSV data into a dictionary
 bank_data = {}
 with open('csv/bank_interest.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
@@ -284,10 +273,8 @@ print(bank_data)
 # %%
 user_input = input("Enter your query (less KEYWORD): ")  # Example: "Nepal Bank"
 
-# Tokenize user input
 user_tokens = word_tokenize(user_input)
 
-# Convert tokens to lowercase
 user_tokens_lower = [token.lower() for token in user_tokens]
 
 print(user_tokens_lower)

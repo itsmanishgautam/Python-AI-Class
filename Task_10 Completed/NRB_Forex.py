@@ -7,7 +7,6 @@ def get_forex_rates(date):
     endpoint = "rates"
     url = f"{base_url}{endpoint}"
 
-    # Prepare parameters
     params = {
         "page": 1,
         "per_page": 1,
@@ -15,10 +14,8 @@ def get_forex_rates(date):
         "to": date
     }
 
-    # Make request
     response = requests.get(url, params=params)
 
-    # Check for successful response
     if response.status_code == 200:
         return response.json()
     else:
@@ -26,12 +23,10 @@ def get_forex_rates(date):
         print("Error:", response.status_code)
         return None
 
-# Accept user input for the date
 date = input("Enter the date (YYYY-MM-DD): ")
 
 forex_data = get_forex_rates(date)
 if forex_data:
-    # Process the data as needed
     print(forex_data)
 else:
     print("Failed to fetch FOREX data.")

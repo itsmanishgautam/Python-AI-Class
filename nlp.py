@@ -1,12 +1,10 @@
 import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-# Load pre-trained model and tokenizer
 model_name = 'gpt2'
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
-# Set the device to GPU if available, otherwise CPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 

@@ -1,15 +1,12 @@
 import csv
 
-# Define the CSV filename
 csv_filename = "Task_8 Completed/csv/product_data.csv"
 tokenized_product_data = []
 original_product_data = []
 
-# Function to tokenize a string value
 def tokenize(value):
     return value.strip().lower().split()
 
-# Read and tokenize the CSV file
 with open(csv_filename, mode='r', newline='') as file:
     reader = csv.reader(file)
     headers = next(reader)  # Read the header
@@ -20,9 +17,7 @@ with open(csv_filename, mode='r', newline='') as file:
             tokenized_row.extend(tokenize(value))
         tokenized_product_data.append(tokenized_row)
 
-# Print the tokenized data for verification (optional)
-# for row in tokenized_product_data:
-#     print(row)
+
 
 def format_reply(matched_rows):
     if not matched_rows:
@@ -41,7 +36,6 @@ while True:
         break
 
     input_tokens = tokenize(keyword)
-    # print(f"Tokenized input: {input_tokens}")
 
     matching_rows = [
         original_product_data[idx] for idx, row in enumerate(tokenized_product_data)

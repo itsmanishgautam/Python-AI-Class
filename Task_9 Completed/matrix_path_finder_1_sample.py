@@ -1,6 +1,5 @@
 import math
 import random
-# from collections import deque
 
 
 def bot_select_from_outer_layer(matrix):
@@ -17,7 +16,6 @@ def choose_random_number_in_matrix(matrix):
     return random.choice(flat_matrix)
 
 
-# Example usage:
 num = int(input("Enter a number:"))
 
 row = int(math.sqrt(num))
@@ -51,7 +49,6 @@ def find_path(matrix, bot_number, number_to_find):
     visited = [[False] * num_cols for _ in range(num_rows)]
     visited_count = 0
 
-    # Find the starting position of the bot_number
     start_row, start_col = None, None
     for row in range(num_rows):
         for col in range(num_cols):

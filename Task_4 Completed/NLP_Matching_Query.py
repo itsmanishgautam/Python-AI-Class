@@ -41,7 +41,7 @@ def generate_response(user_input, query_counts):
     return response
 
 
-# Chatbot loop
+# Chatbot looping
 print("Welcome to the Chatbot!")
 query_counts = {}
 

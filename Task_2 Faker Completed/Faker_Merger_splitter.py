@@ -42,7 +42,7 @@ def split_csv(input_file):
 
 
 if __name__ == "__main__":
-    num_records = 100000
+    num_records = 1000000
     generate_fake_data(num_records)
 
     df1 = pd.read_csv("Task_2/csv/fake_data.csv")

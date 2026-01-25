@@ -1,7 +1,6 @@
 import random
 import matplotlib.pyplot as plt
 
-# Generate random dataset
 random.seed(0)
 X = [[random.uniform(0, 2)] for _ in range(100)]
 y = [[4 + 3 * x[0] + random.gauss(0, 1)] for x in X]
@@ -13,7 +12,6 @@ y_train = y[:train_size]
 X_test = X[train_size:]
 y_test = y[train_size:]
 
-# Add bias term to training and testing data
 def add_bias_term(X):
     return [[1] + x for x in X]
 
